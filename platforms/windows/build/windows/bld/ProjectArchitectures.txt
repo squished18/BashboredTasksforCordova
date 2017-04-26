@@ -1,0 +1,1 @@
+C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\CordovaApp.Windows10.jsproj;neutral
