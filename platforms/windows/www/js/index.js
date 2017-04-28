@@ -39,6 +39,12 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
+        // add listener for database startup successful
+        document.addEventListener('databaseReady', testDatabaseReady, false);
+        // add listener for database problems
+
+        openDatabase();
+
         console.log('Received Event: ' + id);
     }
 };

@@ -5,12 +5,15 @@ if (!window.indexedDB)
 
 function openDatabase()
 {
+
   var eventDatabaseReady = document.createEvent('Event');
   eventDatabaseReady.initEvent('databaseReady', true, true);
-  elem.dispatchEvent(eventDatabaseReady);
+  document.dispatchEvent(eventDatabaseReady);
+
 };
 
 function testDatabaseReady()
 {
   window.alert("The database is ready.");
+  document.getElementById('test_field').innerHTML = "The database is ready.";
 };
