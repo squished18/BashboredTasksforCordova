@@ -83,6 +83,9 @@
     <AppxPackagedFile Include="C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\www\js\index.js">
       <PackagePath>www\js\index.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\www\js\indexedDB.js">
+      <PackagePath>www\js\indexedDB.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\www\WinJS\js\base.js">
       <PackagePath>www\WinJS\js\base.js</PackagePath>
     </AppxPackagedFile>
