@@ -45,6 +45,8 @@ var app = {
 
         openDatabase();
 
+        document.getElementById('app').innerHTML = "<p id='test_field'>Hello world!</p>";
+
         console.log('Received Event: ' + id);
     }
 };

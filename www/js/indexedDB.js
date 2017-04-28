@@ -15,5 +15,5 @@ function openDatabase()
 function testDatabaseReady()
 {
   window.alert("The database is ready.");
-  document.getElementById('test_field').innerHTML = "The database is ready.";
+  // document.getElementById('test_field').innerHTML = "The database is ready.";
 };
