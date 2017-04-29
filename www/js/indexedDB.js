@@ -9,9 +9,19 @@ function openDatabase()
     }
     else
     {
-        var eventDatabaseReady = document.createEvent('Event');
-        eventDatabaseReady.initEvent('databaseReady', true, true);
-        document.dispatchEvent(eventDatabaseReady);
+        var request = window.indexedDB.open("BashboredTasksDB", 1);
+
+        request.onerror = function(event)
+        {
+            // Do something with request.errorCode!
+        };
+        request.onsuccess = function(event)
+        {
+            // Do something with request.result!
+            var eventDatabaseReady = document.createEvent('Event');
+            eventDatabaseReady.initEvent('databaseReady', true, true);
+            document.dispatchEvent(eventDatabaseReady);
+        };
     }
 };
 
