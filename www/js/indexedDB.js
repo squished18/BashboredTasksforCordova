@@ -15,6 +15,25 @@ function openDatabase()
         {
             // Do something with request.errorCode!
         };
+        request.onupgradeneeded = function(event)
+        {
+            var db = event.target.result;
+
+            // Create an objectStore for this database
+            var objectStore = db.createObjectStore("table_projects", { keyPath: "project_id" });
+
+            objectStore.transaction.oncomplete = function(event)
+            {
+                var transaction = db.transaction(["table_projects"], "readwrite");
+                var transactionObjectStore = transaction.objectStore("table_projects");
+                var request = transactionObjectStore.add("{project_id : '001'}");
+
+                request.onsuccess = function(event)
+                {
+                    document.getElementById('field_database_status').innerHTML = "Initial record created.";
+                };
+            };
+        };
         request.onsuccess = function(event)
         {
             // Do something with request.result!
