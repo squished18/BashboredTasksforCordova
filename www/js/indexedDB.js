@@ -17,7 +17,7 @@ function openDatabase()
         };
         request.onupgradeneeded = function(event)
         {
-            initDatabase();s
+            initDatabase();
         };
         request.onsuccess = function(event)
         {
@@ -39,9 +39,10 @@ function initDatabase()
     {
         var transaction = db.transaction(["table_projects"], "readwrite");
         var transactionObjectStore = transaction.objectStore("table_projects");
-        var request = transactionObjectStore.add({project_id : '001'});
+        var request2 = transactionObjectStore.add({project_id : '001',
+                                                  project_description : 'Sample project'});
 
-        request.onsuccess = function(event)
+        request2.onsuccess = function(event)
         {
             document.getElementById('field_database_status').innerHTML = "Initial record created.";
         };
