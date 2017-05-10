@@ -1,7 +1,10 @@
-C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\debug\anycpu\win10\resources.pri
-C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\debug\anycpu\win10\AppxManifest.xml
-C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\debug\anycpu\win10\CordovaApp.Windows10.build.appxrecipe
+C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\debug\x86\win10\AppxManifest.xml
+C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\debug\x86\win10\CordovaApp.Windows10.build.appxrecipe
+C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\debug\x86\win10\SQLite3.winmd
+C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\debug\x86\win10\SQLite3.pri
+C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\bld\CordovaApp.Windows10.jsprojResolveAssemblyReference.cache
 C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\bld\ResourceHandlingTask.state
+C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\bld\CordovaApp.Windows10.jsproj.GenerateResource.Cache
 C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\bld\priconfig.xml
 C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\bld\priconfig.xml.intermediate
 C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\bld\layout.resfiles
@@ -14,5 +17,4 @@ C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\wi
 C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\bld\qualifiers.txt.intermediate
 C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\bld\MultipleQualifiersPerDimensionFound.txt
 C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\bld\ProjectArchitectures.txt
-C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\bld\package.map.txt
-C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\bld\_pkginfo.txt
+C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\build\windows\Debug\x86\win10\ReverseMap\resources.pri
