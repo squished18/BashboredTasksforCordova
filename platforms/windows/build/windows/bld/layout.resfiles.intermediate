@@ -20,4 +20,7 @@ www\img\logo.png
 www\index.html
 www\js\index.js
 www\js\indexedDB.js
+www\plugins\cordova-sqlite-storage\src\windows\SQLite3-Win-RT\SQLite3JS\js\SQLite3.js
+www\plugins\cordova-sqlite-storage\src\windows\sqlite-proxy.js
+www\plugins\cordova-sqlite-storage\www\SQLitePlugin.js
 www\WinJS\js\base.js

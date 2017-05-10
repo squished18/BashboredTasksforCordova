@@ -1,1 +1,2 @@
-C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\CordovaApp.Windows10.jsproj;neutral
+C:\Users\dlau\Documents\code\BashboredTasksforCordova\platforms\windows\CordovaApp.Windows10.jsproj;x86
+C:\Users\dlau\Documents\code\BashboredTasksforCordova\plugins\cordova-sqlite-storage\src\windows\SQLite3-Win-RT\SQLite3\SQLite3.UWP\SQLite3.UWP.vcxproj;x86
