@@ -2,6 +2,28 @@
 
 function openDatabase()
 {
+    window.sqlitePlugin.echoTest(function () {
+        document.getElementById('field_database_status').innerHTML = "sqlitePlugin works!";
+    });
+
+    var db = null;
+    db = window.sqlitePlugin.openDatabase({name: 'BashboredTasksDB', location: 'default'});
+
+    db.transaction(function(test_transaction)
+    {
+        test_transaction.executeSql('CREATE TABLE IF NOT EXISTS DemoTable (name, score)');
+        test_transaction.executeSql('INSERT INTO DemoTable VALUES (?, ?)', ['Alice', 101]);
+        test_transaction.executeSql('INSERT INTO DemoTable VALUES (?, ?)', ['Bob', 202]);
+    },
+    function (error)
+    {
+        console.log('Transaction ERROR: ' + error.message);
+    },
+    function ()
+    {
+        console.log('Populated database OK.');
+    });
+    /*
     if (!window.indexedDB)
     {
         window.alert("Your browser doesn't support a stable version of IndexedDB.");
@@ -9,7 +31,7 @@ function openDatabase()
     }
     else
     {
-        var request = window.indexedDB.open("BashboredTasksDB", 1);
+        var request = window.indexedDB.open("BashboredTasksDB", 2);
 
         request.onerror = function(event)
         {
@@ -17,7 +39,7 @@ function openDatabase()
         };
         request.onupgradeneeded = function(event)
         {
-            initDatabase();
+            // initDatabase();
         };
         request.onsuccess = function(event)
         {
@@ -27,6 +49,7 @@ function openDatabase()
             document.dispatchEvent(eventDatabaseReady);
         };
     }
+    */
 };
 
 function initDatabase()
